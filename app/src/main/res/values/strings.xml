@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WordAttack</string>
+    <string name="action_settings">Settings</string>
+    <string name="finding_service">Finding Challengers Nearby</string>
+    <string name="btn_send">Attack!</string>
+    <string name="txt_hint">Enter Valid Word</string>
+    <string name="successful_registration_text">Registraion Succesful: Added Local Service</string>
+    <string name="registration_failed_text">Registration Failed: Failed to add a service</string>
+    <string name="successful_service_requesr">Added service discovery request</string>
+    <string name="failue_service_request">Failed adding service discovery request</string>
+    <string name="successful_service_discoovery">Service discovery initiated</string>
+    <string name="failure_service_discoovery">Service discovery failed</string>
+    <string name="successful_connection">Connecting to service</string>
+    <string name="failed_connection">Failed connecting to service</string>
+    <string name="opponent_score">Buddy: 0</string>
+    <string name="my_score">Me: 0</string>
+    <string name="time_initial">Get Ready</string>
+    <string name="result_win">Game Over: You Won</string>
+    <string name="result_loss">Game Over: You Lost</string>
+    <string name="result_tie">Game Over: A Tie</string>
+</resources>

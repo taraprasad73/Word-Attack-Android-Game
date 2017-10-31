@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignEnd="@+id/opponentScoreText"
+        android:layout_alignRight="@+id/opponentScoreText"
+        android:transcriptMode="alwaysScroll">
+
+        <!-- Preview: listitem=@android:layout/simple_list_item_1 -->
+
+    </ListView>
+
+    <TextView
+        android:id="@+id/myScoreText"
+        android:layout_width="@dimen/score_width"
+        android:layout_height="@dimen/score_height"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@android:id/list"
+        android:layout_gravity="left|center_vertical"
+        android:gravity="center"
+        android:text="@string/my_score"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/opponentScoreText"
+        android:layout_width="@dimen/score_width"
+        android:layout_height="@dimen/score_height"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@android:id/list"
+        android:layout_gravity="right|center_vertical"
+        android:gravity="center"
+        android:text="@string/opponent_score"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/txtChatLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="bottom"
+        android:layout_toLeftOf="@+id/sendButton"
+        android:layout_toStartOf="@+id/sendButton"
+        android:layout_weight="0.90"
+        android:focusableInTouchMode="true"
+        android:gravity="center"
+        android:hint="@string/txt_hint"
+        android:visibility="visible"></EditText>
+
+    <Button
+        android:id="@+id/sendButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="bottom|right"
+        android:layout_weight="0.10"
+        android:gravity="center"
+        android:text="@string/btn_send" />
+
+    <TextView
+        android:id="@+id/countDownTimerText"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_alignEnd="@+id/opponentScoreText"
+        android:layout_alignRight="@+id/opponentScoreText"
+        android:layout_below="@+id/myScoreText"
+        android:gravity="center"
+        android:text="@string/time_initial"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="@dimen/timer_size" />
+
+</RelativeLayout>

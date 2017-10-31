@@ -1,0 +1,10 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="score_width">150dp</dimen>
+    <dimen name="score_height">75dp</dimen>
+    <dimen name="timer_size">30sp</dimen>
+    <dimen name="word_size">40sp</dimen>
+</resources>
